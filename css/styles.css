@@ -29,6 +29,11 @@ address {
     font-style: normal;
 }
 
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+}
+
 .section-title {
     font-weight: 700;
     font-size: 36px;
