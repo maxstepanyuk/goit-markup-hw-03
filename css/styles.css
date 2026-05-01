@@ -106,11 +106,13 @@ address {
 .navigation {
     display: flex;
     gap: 76px;
+    align-items: center;
 }
 
 .navigation-list {
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 .navigation-link {
