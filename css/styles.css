@@ -111,8 +111,11 @@ address {
 
 .navigation {
     display: flex;
-    gap: 76px;
     align-items: center;
+}
+
+.navigation-logo{
+    margin-right: 76px;
 }
 
 .navigation-list {
