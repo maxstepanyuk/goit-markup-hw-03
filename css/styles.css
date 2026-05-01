@@ -89,7 +89,29 @@ address {
 .logo-accent-light {
     color: #f4f4fd;
 }
+
 /* @import url("./header.css"); */
+
+.header {
+    padding: 24px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    gap: 76px;
+}
+
+.navigation-list {
+    display: flex;
+    gap: 40px;
+}
+
 .navigation-link {
     color: #2e2f42;
     font-weight: 500;
@@ -98,6 +120,11 @@ address {
 .navigation-link:hover,
 .navigation-link:focus {
     color: #404bbf;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
 }
 
 .contacts-link:hover,
