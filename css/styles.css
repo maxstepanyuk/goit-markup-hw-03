@@ -181,6 +181,8 @@ address {
     padding: 16px 32px;
     margin: auto;
     display: block;
+
+    min-width: 169px
 }
 
 .hero-button:hover,
