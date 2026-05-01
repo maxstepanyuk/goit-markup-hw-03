@@ -178,14 +178,27 @@ address {
 .hero-button:focus {
     background: #404BBF;
 }
+
 /* @import url("./principles.css"); */
+
+.principles-list {
+    display: flex;
+    gap: 24px;
+}
+
+.principles-item {
+    width: calc((100% - 72px) / 4);
+}
+
 .principles-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
+
 /* @import url("./team.css"); */
 .team {
     background: #f4f4fd;
