@@ -139,9 +139,11 @@ address {
 .contacts-link:focus {
     color: #404bbf;
 }
+
 /* @import url("./hero.css"); */
 .hero {
     background-color: #2e2f42;
+    padding: 188px;
 }
 
 .hero-title {
@@ -151,14 +153,25 @@ address {
     text-align: center;
     color: #ffffff;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto 48px;
 }
 
 .hero-button {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+
     color: #fff;
     background: #4d5ae5;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+    border-radius: 4px;
+    border: none;
+
+    padding: 16px 32px;
+    margin: auto;
+    display: block;
 }
 
 .hero-button:hover,
