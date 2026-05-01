@@ -99,7 +99,6 @@ address {
 /* @import url("./header.css"); */
 
 .header {
-    padding: 24px 0;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -114,8 +113,9 @@ address {
     align-items: center;
 }
 
-.navigation-logo{
+.navigation-logo {
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .navigation-list {
@@ -127,6 +127,7 @@ address {
 .navigation-link {
     color: #2e2f42;
     font-weight: 500;
+    padding: 24px 0;
 }
 
 .navigation-link:hover,
@@ -137,6 +138,10 @@ address {
 .contacts-list {
     display: flex;
     gap: 40px;
+}
+
+.contacts-link {
+    padding: 24px 0;
 }
 
 .contacts-link:hover,
